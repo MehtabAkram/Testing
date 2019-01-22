@@ -1,16 +1,30 @@
 module.exports = {
     "env": {
+        "es6": true,
         "browser": true,
-        "es6": true
     },
     "extends": "airbnb",
     "parserOptions": {
-        "ecmaVersion": 2017
+        "ecmaVersion": 5,
+		"HTML":true
     },
     "rules": {
-        "comma-spacing" : 0,
-        "no-tabs":0,
-        "max-len":0,
-        "no-console":0
+        "no-console":"off", // warn,off,error
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
     }
 };

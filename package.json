@@ -1,0 +1,14 @@
+{
+  "name": "eslint",
+  "version": "5.12.0",
+  "description": "eslint",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"Mehtab\");"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-plugin-react": "^7.12.3"
+  }
+}
